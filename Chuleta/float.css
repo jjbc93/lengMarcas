@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    
+}
+/*div*/#uno{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+    /*visibility: hidden;*/
+    /*z-index: -20;*/
+}
+
+/*div*/#dos{
+     width: 500px;
+    height: 250px;
+    background-color: orange;
+    float: left;
+}
+
+/*div*/#tres{
+    width: 350px;
+    height: 270px;
+    background-color: green;
+    clear: both;
+    float: left;
+   /* float: left;*/
+    
+}
+
+/*div*/#cuatro{
+    width: 540px;
+    height: 120px;
+    background-color: blueviolet;
+    /*visibility: hidden;*/
+    float: left;
+}

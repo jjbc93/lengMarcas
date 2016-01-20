@@ -1,0 +1,15 @@
+.tituloprincipal{
+    border-bottom-style: solid;
+    
+}
+.titulosecundario{
+    border: 1px dotted grey;
+}
+.personajes{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-left-style: solid;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-right-style: solid;
+}

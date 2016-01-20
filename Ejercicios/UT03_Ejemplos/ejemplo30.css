@@ -1,0 +1,13 @@
+.texto{
+    border-style: solid;
+    border-width: 1px 4px;
+    border-color: purple orange;
+    color:darkgrey;
+}
+.personajes{
+    border-style: dotted;
+    
+    color: darkgrey;
+    border-color: purple orange;
+    
+}

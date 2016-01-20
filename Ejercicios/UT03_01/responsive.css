@@ -1,0 +1,63 @@
+	.container {
+
+		width:996px;
+
+		margin:0px auto;
+
+		font-size:1em;
+
+	}
+
+	section,aside {
+
+		padding: 10px;
+
+		background:#ccc;
+
+		-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+
+	}
+
+	section {
+
+		float: left;
+
+		width: 70%;
+
+	}
+
+	aside {
+
+		float: right;
+
+		width: 25%;
+
+	}
+
+	nav {
+
+		overflow: hidden;
+
+	}
+
+	nav ul {
+
+		list-style-type:none;
+
+		float:left;
+
+		padding:0px;
+
+	}
+
+	nav ul li {
+
+		float:left;
+
+		padding:3px 10px;
+
+		margin:2px;
+
+		background:#ccccff;
+
+		-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;

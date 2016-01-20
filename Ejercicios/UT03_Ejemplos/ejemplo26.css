@@ -1,0 +1,36 @@
+.tituloprincipal{
+    color: #000;
+    font: small-caps lighter 24px Verdana, Arial, Sans-Serif;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+.titulosecundario{
+    color:#000;
+    font: small-caps lighter 18px Verdana, Arial, Sans-Serif;
+    text-decoration: overline;
+    letter-spacing: 3px;
+}
+.texto{
+    color:#666;
+    font: 14px Arial, Sans-Serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 160%;
+}
+table{
+    font: 12px Arial, Sans-Serif;
+    borde: 1px solid #000;
+}
+th{
+    color:#fff;
+    background: #333;
+    width: 100px;
+    padding: 2px 5px;
+}
+td{
+    border: 1px solid #000;
+    width: 250px;
+    padding: 2px 5px;
+}

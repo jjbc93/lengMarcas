@@ -1,0 +1,12 @@
+p{
+    color:cyan !important ;
+    font-size: 30px;
+}
+#especial{
+    background-color: red;
+    color: yellow;
+}
+p{
+    background-color: yellow;
+    color: black;
+}

@@ -1,0 +1,25 @@
+body{
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
+}
+.tituloprincipal{
+    color:blue;
+    font: small-caps lighter 24px Verdana, Arial, Sans-Serif;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    text-shadow: -2px 2px 4px #666;
+}
+.titulosecundario{
+    color:rgb(0,0,255);
+    font: small-caps lighter 18px Verdana, Arial, Sans-Serif;
+    text-decoration: overline;
+    letter-spacing: 3px;
+    text-shadow: -1px 1px 2px #666;
+}
+.texto{
+    color: black;
+    font: 14px bold Arial, Sans-Serif;
+    letter-spacing: 1px;
+}

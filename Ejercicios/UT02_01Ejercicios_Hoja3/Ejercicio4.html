@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio4</title>
+        
+    </head>
+    <body>
+        <h1>Inscripción</h1>
+        <form name="formulario" method="post" action="datos.php">
+        <fieldset style="color:purple;background-color:#F3E2A9">
+            <legend>Datos Personales</legend>
+            <pre>
+Apellidos        <input type="text" name="apellidos"><br>
+Nombre           <input type="text" name="nombre"><br>
+DNI              <input type="text" name="dni"><br>
+Nacido en        <input type="text" name="lugarNacimiento"><br>
+Provincia        <input type="text" name="provincia"><br>
+Fecha Nacimiento <input type="date" name="fecheNacimiento"><br>
+Domicilio        <select>
+                    <option value="c">Calle</option>
+                    <option value="a">Avenida</option>
+                    <option value="p">Plaza</option>
+                    <option value="o">Otro</option>    
+                 </select> <input type="text"><br>
+Número           <input type="number" name="numero"><br>
+Piso             <input type="number" name="piso"><br>
+Letra            <input type="text" name="letra"><br>
+Localidad        <input type="text" name="localidad"><br>
+Provincia        <input type="text" name="provincia"><br>
+Teléfono         <input type="number" name="telefono">
+                
+        </pre>
+        </fieldset>
+        <fieldset style="color:purple;background-color:#F3E2A9">
+        <legend>Requisitos de acecso</legend>
+        <pre>
+            <input type="radio" name="acceso" value="directo">Directo
+               <input type="radio" name="directo" value="LOGSE">Bachillerato LOGSE Modalidad <input type="text">
+               <input type="radio" name="directo" value="experimental">Bachillerato experimental
+               <input type="radio" name="directo" value="COU">COU. Opción <input type="text">
+               <input type="radio" name="directo" value="FP2">FP2
+               <input type="radio" name="directo" value="otros">Otros (especifique) <input type="text">
+            <input type="radio" name="acceso" value="prueba">Mediante prueba          
+        </pre>
+        </fieldset>
+            <fieldset style="color:purple;background-color:#F3E2A9">
+            <legend>Solicitud</legend>
+                El/la que suscribe desea ser admitido en este centro para cursar el ciclo formativo de grado superior:<br>
+                Ciclo Formativo: <select>
+                                  <option value=""></option>
+                                  <option value="DAW">DAW</option>
+                                  <option value="DAM">DAM</option>
+                                  <option value="STI">STI</option>
+                                </select><br>
+                En caso de no ser admitido/a solicita la admisión por orden de preferencia en los siguientes:
+                <pre><strong>Ciclos Formativos     Centros               Localidad</strong>
+<input type="text">   <input type="text">    <input type="text"><br>
+<input type="text">   <input type="text">    <input type="text">
+Modalidad de horario especial (marque)<input type="checkbox" value="">
+            </fieldset>
+            <fieldset style="color:purple;background-color:#F3E2A9">
+            <legend>Documentación presentada</legend>
+            <pre>
+                <input type="checkbox" value=""> Fotocopia DNI           <input type="checkbox" value="">Certificado académico
+                <input type="checkbox" value="">Otros documentos (especifique)<input type="text">
+            </pre>
+            </fieldset>
+        </form>
+    </body>
+</html>

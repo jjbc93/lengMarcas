@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio22</title>
+
+    </head>
+    <body>
+        <h2>Changelog</h2>
+        <table>
+            <tr>
+                <ul>
+                    <td>v0.4.2</td>
+                    <td><dd>
+                        <li>Added `controlbar´attribute to `flashvars´ so that the Flash player no longer needs a different height than the HTML5 video</li>
+                        </dd></td>
+                </ul>
+            </tr>
+
+            <tr> 
+                <ul>
+                    <td>v0.4.1</td>
+                    <td><dd>
+                        <li>Removed the poster attribute from the video element as the iPhone OS has a nasty bug that will cause any HTML5 video                                   element(not just VfE) that uses multiple `<source>´ tags to fail whenever the page is refreshed. A fix is coming with iPhone OS                             4.0; encode the poster as the first frame of the video as a workaround</li>
+                        <li>Changed `<source´...></source>´back to <source.../>`for valid HTML5.</li>
+                        <li>Added support for WebM/VP8</li>
+                        <li>Changed Flash to use a `flashvars´ parameter instead of appending to the SWF location for simplicity (with thanks to videojs                           for demostrating this)</li>
+                        </dd></td>
+                </ul>
+            </tr>
+
+            <tr> 
+                <ul>
+                    <td>v0.4</td>
+                    <td><dd>
+                        <li>Removed QuickTime to simplify code.
+                            Only iPhone OS 2.0 support was lost (for inpage playing, download link will still work)</li>
+                        </dd> </td>
+                </ul>
+            </tr>
+
+            <tr>  
+                <ul>
+                    <td>v0.3.3</td>
+                    <td><dd>
+                        <li>Changed order of source tags to put MP4 first to make iPad work.
+                            Thanks goes to Corey Weiner for iPad testing</li>
+                        </dd></td>
+                </ul>
+            </tr>
+            <tr>  
+                <ul>
+                    <td>v0.3.2</td>
+                    <td><dd> 
+                        <li>Fixed an element closure bug with the osurce tags in Firefox 3.0/Camino 2.0.
+                            Thanks goes to Terrell Kelley for spotting this</li>
+                        <li>Changed working of downloads links from "High/Low Quality" to "Apple iTunes" and "Open Format"</li>
+                        </dd></td>
+                </ul>
+            </tr>
+
+            <tr> 
+                <ul>
+                    <td>v0.3.1</td>
+                    <td><dd> 
+                        <li>Added missing `autoplay=false´param for QuickTime</li>
+                        </dd></td>
+                </ul> 
+            </tr> 
+
+            <tr> 
+                <ul>
+                    <td>v0.3.0</td>
+                    <td><dd> 
+                        <li>Rewrite to change fallback from HTML5-->Flash-->QT to HTML5-->QT-->Flash.
+                            This was done for much smaller code and better compatibility with Opera</li>
+                    </td></dd>
+            </ul>
+        </tr>
+
+    </table>
+</body>
+</html>
